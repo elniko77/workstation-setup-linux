@@ -17,6 +17,5 @@ sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin d
 
 # execute docker without sudo
 sudo usermod -aG docker "$USER"
-su - "$USER"
 newgrp docker
 docker run hello-world
