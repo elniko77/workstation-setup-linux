@@ -29,6 +29,7 @@ gsettings set org.gnome.desktop.interface color-scheme prefer-dark
 # Set wallpaper 
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-echo "setting wallpaper to ${SCRIPT_DIR}/../configs/wallpaper.jpeg"
+echo $SCRIPT_DIR
+echo "setting wallpaper to ${SCRIPT_DIR}/configs/wallpaper.jpeg"
 gsettings set org.gnome.desktop.background picture-uri-dark "file://${SCRIPT_DIR}/wallpaper.jpg"
 #gsettings set org.gnome.desktop.background picture-options 'zoom'
