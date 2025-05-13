@@ -18,5 +18,9 @@ echo "Installing tailscale..."
 echo "Configuring shell..."
 ./scripts_ubuntu/configure_shell.sh
 
+echo "Install common gui apps..."
+./scripts_gui/install_common_apps.sh
+
+
 
 
