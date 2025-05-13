@@ -27,9 +27,7 @@ gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-6 "['<Super>6
 gsettings set org.gnome.desktop.interface color-scheme prefer-dark
 
 # Set wallpaper 
-SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+SCRIPT_DIR="$(pwd)"
 
-echo $SCRIPT_DIR
-echo "setting wallpaper to ${SCRIPT_DIR}/configs/wallpaper.jpeg"
-gsettings set org.gnome.desktop.background picture-uri-dark "file://${SCRIPT_DIR}/wallpaper.jpg"
-#gsettings set org.gnome.desktop.background picture-options 'zoom'
+echo "Setting wallpaper to ${SCRIPT_DIR}/configs/wallpaper.jpg"
+gsettings set org.gnome.desktop.background picture-uri-dark "file://${SCRIPT_DIR}/configs/wallpaper.jpg"
