@@ -6,4 +6,4 @@ sudo apt update
 sudo apt install gh
 
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-cp ${SCRIPT_DIR}/configs/gitconfig "$HOME/.gitconfig"
+cp ${SCRIPT_DIR}/../configs/gitconfig "$HOME/.gitconfig"
