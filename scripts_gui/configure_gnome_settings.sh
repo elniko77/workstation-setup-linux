@@ -23,6 +23,9 @@ gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-5 "['<Super>5
 gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-6 "['<Super>6']"
 
 
+# Dark mode
+gsettings set org.gnome.desktop.interface color-scheme prefer-dark
+
 # Set wallpaper 
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 

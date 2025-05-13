@@ -7,6 +7,5 @@ sudo snap install helm --classic
 sudo snap install zoom-client
 sudo snap install winbox --classic
 sudo snap install obsidian --classic
-sudo snap install terraform --classic
 
 

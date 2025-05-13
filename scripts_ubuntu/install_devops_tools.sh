@@ -8,11 +8,9 @@ gpg --no-default-keyring \
 --keyring /usr/share/keyrings/hashicorp-archive-keyring.gpg \
 --fingerprint
 
-#echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] \
-#https://apt.releases.hashicorp.com $(lsb_release -cs) main" | \
-#sudo tee /etc/apt/sources.list.d/hashicorp.list
-#sudo apt update
-#sudo apt install terraform
+sudo apt install -y distrobox
+sudo snap install terraform --classic
+
 
 ## Install kind
 curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.25.0/kind-linux-amd64

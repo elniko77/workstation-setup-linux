@@ -1,9 +1,13 @@
 #!/bin/bash
 
 
-# Flatpak support and apps"
+# Flatpak support and apps
 ./scripts_gui/install_flatpak.sh
 
-# Flatpak snap apps"
+# Flatpak snap apps
 ./scripts_gui/install_snaps.sh
+
+# Gnome settings
+./scripts_gui/configure_gnome_settings.sh
+
 

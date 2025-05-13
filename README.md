@@ -9,5 +9,8 @@ Use:
 
 # Run gui installation for gnome (flatpaks, gnome settings, etc)
 ./run_gui.sh
+```
 
-``
+
+
+
