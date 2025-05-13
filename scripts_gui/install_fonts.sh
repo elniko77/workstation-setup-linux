@@ -1,5 +1,7 @@
 #!/bin/bash
 
+
+echo "Installing fonts..."
 mkdir -p ~/.local/share/fonts
 
 cd /tmp

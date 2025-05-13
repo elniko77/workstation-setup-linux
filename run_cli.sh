@@ -15,6 +15,7 @@ echo "Installing devops tools..."
 echo "Installing tailscale..."
 ./scripts_ubuntu/install_tailscale.sh
 
-
+echo "Configuring shell..."
+./scripts_ubuntu/configure_shell.sh
 
 

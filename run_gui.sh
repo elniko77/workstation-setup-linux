@@ -15,3 +15,7 @@
 
 # Misc settings
 ./scripts_gui/configure_settings.sh
+
+# Fonts
+./scripts_gui/install_fonts.sh
+
