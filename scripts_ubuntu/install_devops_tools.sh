@@ -10,6 +10,7 @@ gpg --no-default-keyring \
 
 sudo apt install -y distrobox
 sudo snap install terraform --classic
+sudo snap install multipass --classic
 
 
 ## Install kind
