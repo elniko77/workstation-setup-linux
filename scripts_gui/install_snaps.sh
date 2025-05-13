@@ -9,3 +9,4 @@ sudo snap install winbox --classic
 sudo snap install obsidian --classic
 
 
+
