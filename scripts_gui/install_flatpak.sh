@@ -1,11 +1,12 @@
 #!/bin/bash
 
-# Install flatpak support and add flathub
+echo "Install flatpak support and add flathub..."
 sudo apt install -y flatpak
 sudo apt install -y gnome-software
 sudo apt install -y gnome-software-plugin-flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
+echo "Installing flatpak applications..."
 flatpak install -y flathub com.microsoft.Edge
 flatpak install -y flathub org.onlyoffice.desktopeditors
 flatpak install -y flathub org.remmina.Remmina
