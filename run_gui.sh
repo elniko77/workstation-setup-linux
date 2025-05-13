@@ -11,4 +11,4 @@
 ./scripts_gui/configure_gnome_settings.sh
 
 # Gnome software, extensions
-./scripts_gui/intsall_gnome_software.sh
+./scripts_gui/install_gnome_software.sh
