@@ -19,3 +19,5 @@
 # Fonts
 ./scripts_gui/install_fonts.sh
 
+# Install common gui apps
+./scripts_gui/install_common_apps.sh
