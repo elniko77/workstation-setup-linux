@@ -19,3 +19,4 @@ echo "Configuring shell..."
 ./scripts_ubuntu/configure_shell.sh
 
 
+
