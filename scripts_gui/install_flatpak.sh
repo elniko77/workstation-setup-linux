@@ -17,6 +17,6 @@ flatpak install -y flathub org.videolan.VLC
 flatpak install -y flathub com.github.tchx84.Flatseal
 flatpak install -y flathub org.gnome.DejaDup
 flatpak install -y flathub com.usebruno.Bruno
-flatpak install -y flathub io.github.zen_browser.zen
 flatpak install -y flathub io.github.dvlv.boxbuddyrs 
 flatpak install -y flathub com.google.Chrome
+flatpak install -y flathub md.obsidian.Obsidian
