@@ -5,7 +5,7 @@ sudo apt-get update
 sudo apt update && sudo apt upgrade -y && sudo snap refresh
 
 echo "Installing ssh server..."
-sudo apt install -y openssh-server 
+sudo apt install -y openssh-server
 sudo systemctl restart sshd.service
 sudo systemctl enable sshd.service
 
@@ -23,6 +23,7 @@ sudo apt install -y podman
 sudo apt install -y ansible
 sudo apt install -y sshpass
 sudo apt install -y wget
-sudo apt install -y build-essential 
-
-
+sudo apt install -y build-essential
+sudo apt install -y stow
+sudo apt install -y starship
+sudo apt install -y powertop
