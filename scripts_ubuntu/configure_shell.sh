@@ -3,8 +3,8 @@
 
 echo "Installing starship..."
 curl -sS https://starship.rs/install.sh | sh
-eval "$(starship init bash)"
-starship preset pastel-powerline -o ~/.config/starship.toml
+eval $(starship init bash)
+echo '$(starship init bash)' >> ~/.bashrc
 
 echo "Installing Lazyvim..."
 mv ~/.config/nvim{,.bak}
