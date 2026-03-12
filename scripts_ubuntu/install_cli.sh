@@ -19,8 +19,6 @@ sudo apt install -y mc
 sudo apt install -y htop
 sudo apt install -y tmux
 sudo apt install -y elinks
-sudo apt install -y podman
-sudo apt install -y ansible
 sudo apt install -y sshpass
 sudo apt install -y wget
 sudo apt install -y build-essential
